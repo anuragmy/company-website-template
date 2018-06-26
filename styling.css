@@ -1,0 +1,216 @@
+body {
+    background: url(https://ru-android.com/wp-content/uploads/2018/04/Matrix-wallpapers-resources-casualwear-navigating-abstract.png) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    
+}
+.footer {
+    background:rgba(29,167,179,0.2);
+    color:white;
+    padding:10px 0;
+    margin-top: 150px;
+    font-size: 15px;
+    text-align: left;
+}
+#promise {
+    padding-top: 100px;
+}
+.carousel-inner .item img {
+    height:400px;
+    margin:0 auto;
+}
+#mycarousel {
+    width: 80%;
+    margin:0 auto;
+    
+}
+#home {
+    background: transparent;
+    color:white;
+    font-family: Orbitron;
+    font-weight: bold;
+    padding-top: 15%;
+    
+}
+#home a{
+    
+    font-size:30px;
+    
+    
+    
+}
+#home h1,#home p{
+    margin-bottom: 30px;
+}
+#about {
+    text-align: center;
+    color:white;
+    padding-top: 80px;
+}
+#about h2 {
+    font-weight: bold;
+}
+#about p {
+    font-size: 17px;
+}
+#about img {
+    height:120px;
+}
+.container {
+    max-width: 1000px;
+}
+#home .btn-default {
+    
+    color:white;
+    background: rgb(29,167,179);
+    padding:8px 40px;
+    
+    
+    
+    
+}
+.carousel-caption {
+    left:auto;
+    right:auto;
+    position: relative;
+    height: 200px;
+}
+#home .btn-default:hover {
+   background-color: transparent;
+    border:3px solid white;
+    color:white;
+    
+}
+.jumbotron p {
+    font-family: Cabin;
+}
+.navbar-custom {
+  background:  rgb(29,167,179);
+  border-color: #07060f;
+    font-size: 18px;
+    font-family:Orbitron;
+}
+.navbar-custom .navbar-brand {
+  color: white;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-custom .navbar-text {
+  color: #f6f7f7;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #f6f7f7;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #c0c0c0;
+  background-color: transparent;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #c0c0c0;
+  background-color: #07060f;
+}
+.navbar-custom .navbar-nav > .disabled > a,
+.navbar-custom .navbar-nav > .disabled > a:hover,
+.navbar-custom .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+.navbar-custom .navbar-toggle {
+  border-color: #dddddd;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #dddddd;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+  border-color: #06050d;
+}
+.navbar-custom .navbar-nav > .dropdown > a:hover .caret,
+.navbar-custom .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #c0c0c0;
+  border-bottom-color: #c0c0c0;
+}
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+  background-color: #07060f;
+  color: #c0c0c0;
+}
+.navbar-custom .navbar-nav > .open > a .caret,
+.navbar-custom .navbar-nav > .open > a:hover .caret,
+.navbar-custom .navbar-nav > .open > a:focus .caret {
+  border-top-color: #c0c0c0;
+  border-bottom-color: #c0c0c0;
+}
+.navbar-custom .navbar-nav > .dropdown > a .caret {
+  border-top-color: #f6f7f7;
+  border-bottom-color: #f6f7f7;
+}
+@media (max-width: 767) {
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+    color: #f6f7f7;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #c0c0c0;
+    background-color: transparent;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #c0c0c0;
+    background-color: #07060f;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+}
+.navbar-custom .navbar-link {
+  color: #f6f7f7;
+}
+.navbar-custom .navbar-link:hover {
+  color: #c0c0c0;
+}
+.navbar-inverse {
+    background:rgba(0,0,0,0.5);
+    font-family: Orbitron;
+}
+video#vid1 {
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -1;
+}
+@media (max-width:768px) {
+    .carousel-inner .item img {
+        height:300px;
+    }
+    .carousel-inner h2 {
+        font-size:23px;
+    }
+    
+    @media (max-width:768px) {
+    .carousel-inner .item img {
+        height:200px;
+    }
+    .carousel-inner h2 {
+        font-size:17px;
+    }
+         .navbar-brand {
+            font-size:12px;
+        }
+}
